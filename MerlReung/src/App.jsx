@@ -8,6 +8,7 @@ import Profile from "./page/user/Profile"
 import Dashboard from "./page/admin/Dashboard"
 import ManageMovie from "./page/admin/ManageMovie"
 
+
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/favorite" element={<Favorite />} />
         <Route path="/profile" element={<Profile />} />
 
+        <Route path="/admin/dashboard" element={<Dashboard />}
 
       </Routes>
     </Router>
